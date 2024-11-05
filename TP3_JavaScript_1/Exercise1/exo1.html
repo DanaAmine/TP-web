@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 1</title>
+    <!-- Method 2: Script in head -->
+    <script>
+        function displayMessage2() {
+            console.log("Hello World from head script!");
+        }
+    </script>
+    <!-- Method 3: External JavaScript file -->
+    <script src="script1.js"></script>
+</head>
+<body>
+    <button onclick="console.log('Hello World from inline!')">Display (Method 1)</button>
+    <button onclick="displayMessage2()">Display (Method 2)</button>
+    <button onclick="displayMessage3()">Display (Method 3)</button>
+</body>
+</html>

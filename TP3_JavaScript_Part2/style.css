@@ -1,0 +1,92 @@
+.col_number {
+    width: 50px;
+    text-align: center;
+}
+
+.col_text {
+    width: 150px;
+    text-align: left;
+}
+
+.col_chkbox {
+    width: 30px;
+    text-align: center;
+}
+
+#table_container {
+    font-family: Arial, sans-serif;
+    width: 600px;
+    margin: 20px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+#form_container {
+    margin-bottom: 20px;
+}
+
+.form-field {
+    margin: 10px 0;
+}
+
+.form-field label {
+    display: inline-block;
+    width: 100px;
+}
+
+.form-field input {
+    padding: 5px;
+    width: 200px;
+}
+
+#summary {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+.btn-add {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-del {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-consol {
+    background-color: #2196F3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#container_btn {
+    margin-top: 20px;
+}
+
+button {
+    margin-right: 10px;
+}

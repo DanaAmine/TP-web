@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 4</title>
+    <script>
+        // Students array
+        const etudiants = [
+            {matricule: 1000, nom: "JOHN", prenom: "DOE", note: 14, assiduite: 5},
+            {matricule: 2000, nom: "BOB", prenom: "CARLTON", note: 7, assiduite: 1},
+            {matricule: 3000, nom: "RAYANE", prenom: "SMITH", note: 13, assiduite: 3}
+        ];
+
+        function estAdmissible(noteFinale) {
+            return noteFinale >= 10;
+        }
+
+        function deliberation() {
+            for(let etudiant of etudiants) {
+                const noteFinale = etudiant.note + etudiant.assiduite;
+                const resultat = estAdmissible(noteFinale) ? "ADMIS" : "AJOURNÉ";
+                console.log(`${etudiant.nom} ${etudiant.prenom}: ${resultat} (Note finale: ${noteFinale})`);
+            }
+        }
+    </script>
+</head>
+<body>
+    <button onclick="deliberation()">Délibération</button>
+</body>
+</html>

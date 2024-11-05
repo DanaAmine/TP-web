@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Management</title>
+    <script>
+        // Initial movies array
+        let films = [
+            {titre: "Inception", annee: 2010, producteur: "Christopher Nolan"},
+            {titre: "The Matrix", annee: 1999, producteur: "Wachowski Sisters"},
+            {titre: "Pulp Fiction", annee: 1994, producteur: "Quentin Tarantino"}
+        ];
+
+        function afficherFilms() {
+            console.log("Current movies:", films);
+        }
+
+        function ajouterFilm() {
+            const nouveauFilm = {
+                titre: "XX",
+                annee: "XX",
+                producteur: "XX"
+            };
+            films.push(nouveauFilm);
+            console.log("Film added successfully!");
+        }
+
+        function supprimerPremierFilm() {
+            films.shift();
+            console.log("First movie removed successfully!");
+        }
+    </script>
+</head>
+<body>
+    <button onclick="afficherFilms()">Display Movies</button>
+    <button onclick="ajouterFilm()">Add Movie</button>
+    <button onclick="supprimerPremierFilm()">Remove First Movie</button>
+</body>
+</html>
