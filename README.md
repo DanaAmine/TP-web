@@ -1,7 +1,7 @@
 # TP3 JavaScript - Complete Documentation
 
 ## Overview
-This practical work (TP) is divided into two main parts focusing on JavaScript programming fundamentals and DOM manipulation. The TP is designed for Master 1 Informatics (BIG-DATA) students at USTHB.
+This practical work (TP) is divided into two main parts focusing on JavaScript programming fundamentals and DOM manipulation. The TP is designed for L3 SEC students at USTHB.
 
 ## Part 1: JavaScript Language Basics
 
